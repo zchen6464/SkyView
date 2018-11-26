@@ -17,7 +17,6 @@ public class SkyView {
                     view[y][x] = scanned[cur];
                     cur++;
                 }
-                y++;
             }
             else {
                 for(int x = numCols-1; x >= 0; x--)
@@ -25,8 +24,8 @@ public class SkyView {
                     view[y][x] = scanned[cur];
                     cur++;
                 }
-                y++;
             }
+            y++;
         }
     }
 
